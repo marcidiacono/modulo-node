@@ -1,0 +1,25 @@
+Vimos cómo usar npm... (por ahora no hay mucho que se pueda incluir en un desafío).
+
+De todas formas... vimos cómo npm me permitía inicializar un módulo (creación del ...json)
+
+QUIERO VER UN BUEN package.json (Requisito) ---
+esto significa que no quiero un (npm init -y)
+
+QUIERO un servidor web que me devuelva un Objeto (en formato JSON) Usuario[], pero quiero que ese objeto se construya a partir de una clase (5 usuarios en un array)... id, firstName, lastName, age, country.
+
+http://hostname:port/usuarios
+
+cabecera... (200, entre otras cosas)
+body ...
+responde con un body que tiene un array de objetos JSON que son usuarios.
+
+http://hostname:port/cualquiercosa
+
+cabecera...
+body ...
+reponde con un body que tiene un objeto JSON 
+{
+    statusCode:
+    message:
+}
+más allás del propio statusCode de la respuesta.
