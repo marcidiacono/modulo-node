@@ -1,0 +1,1 @@
+curl https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg > nodejs-logo.svg
