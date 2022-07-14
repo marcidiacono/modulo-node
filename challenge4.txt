@@ -1,0 +1,32 @@
+https://jsonplaceholder.typicode.com/users
+
+User
+
+    name:
+    username:
+    email:
+
+    Company
+
+        name:
+
+Esta estructura es la que tienen que modelar.
+
+CRUD para Users
+CRUD para Companies
+
+Un usuario pertenece a una sola compañía.
+
+GET /users
+GET /users/:id
+POST /users
+PUT /users/:id
+DELETE /users/:id
+
+GET /companies (vienen sólo las compañías)
+GET /companies/:id
+POST /companies
+PUT /companies/:id
+DELETE /companies/:id
+
+REQUISITO Separar en una js las rutas para usuarios y para compañías (no en el index, sino en un archivo -que lógicamente será importado y usado en el index- pero que estará en la carpeta routes).
